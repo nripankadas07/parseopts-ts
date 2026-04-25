@@ -1,0 +1,40 @@
+{
+  "name": "parseopts-ts",
+  "version": "1.0.0",
+  "description": "Tiny zero-dependency TypeScript argv parser: typed options, aliases, negatable booleans, arrays, choices, stop-at-positional, and `--` terminator.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose"
+  },
+  "keywords": [
+    "argv",
+    "argparse",
+    "argument-parser",
+    "cli",
+    "command-line",
+    "getopt",
+    "options",
+    "flags",
+    "minimist",
+    "typescript",
+    "zero-dependency"
+  ],
+  "author": "Nripanka Das <nripankadas@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nripankadas07/parseopts-ts.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
