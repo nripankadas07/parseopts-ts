@@ -7,7 +7,7 @@ Designed to fit in a single file you can read end-to-end in five minutes. The wh
 ## Install
 
 ```bash
-npm install parseopts-ts
+npm install && npm run build
 ```
 
 Runtime target is Node.js 18+ (ES2020). No runtime dependencies.
