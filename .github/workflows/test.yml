@@ -25,3 +25,7 @@ jobs:
         run: npm run lint --if-present
       - name: Test
         run: npm test --if-present
+      - name: Verify packaged entries
+        run: node scripts/check-package.cjs
+      - name: Dependency audit
+        run: npm audit
